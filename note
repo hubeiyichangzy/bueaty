@@ -1,0 +1,12 @@
+body{
+    font-size: 62.5%;
+    margin:0 auto;
+/*        16px 缩小到10px，为什么用em做宽度，针对浏览器字体的默认size来缩放1em = 10px*/
+/*    居中*/
+}
+
+
+img block 元素，自动沾满一整行
+float：飘出来，不影响原来的块级元素
+
+background: rgba()半透明效果

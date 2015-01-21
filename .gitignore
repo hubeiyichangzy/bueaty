@@ -19,3 +19,5 @@ _ReSharper.*
 .hgignore
 .hgrc
 .idea
+.idea/*
+.DS_Store
