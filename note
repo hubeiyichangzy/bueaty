@@ -10,3 +10,36 @@ img block 元素，自动沾满一整行
 float：飘出来，不影响原来的块级元素
 
 background: rgba()半透明效果
+
+fontawsome
+: s使用fonts folder
+
+emme: zuihouyi
+    ul>(li>h3>h4)*4
+    
+    
+scss - mixin
+@mixin common-section() //这是带参数的
+@include common-section();
+
+
+@mixin common-section //这是不带参数的
+@include common-section;
+
+    li:after ===== li{ &:after}
+    
+    伪标签必须要有content
+
+position: relative;
+left
+相对于天然的位置的偏移
+
+
+top:是定位的
+margin-top：是偏移用得
+
+
+line-height = 1.2 ==== 120%
+
+
+float的元素是没有告诉的，所以需要:after需要clear:both之前的float

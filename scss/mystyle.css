@@ -1,78 +1,115 @@
-body,section,div, p,form,header,ul,ol,li,
-input,button,img, h1, h2, h3, h4,i, span{
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-body{
-    font-size: 62.5%;
-}
+/* line 7, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+body, section, div, p, form, header, ul, ol, li, input, button, img, h1, h2, h3, h4, i, span {
+  margin: 0;
+  padding: 0;
+  border: none; }
 
-section.hero{
-    max-width: 100em;
-    margin: 0 auto;
-    background-image: url(../images/find-an-agent-hero.png);
-    background-size: cover;
-    color: white;
-}
+/* line 12, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+body {
+  font-size: 62.5%; }
 
-section.hero header{
-}
-
-section.hero header img{
-    float:left;
-    width:120px;
+/* line 16, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+section.hero {
+  max-width: 100em;
+  margin: 0 auto;
+  background-image: url(../images/find-an-agent-hero.png);
+  background-size: cover;
+  color: white; }
+  /* line 23, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+  section.hero header img {
+    float: left;
+    width: 120px;
     height: 50px;
-    margin: 1em 0 0 1em;
-}
-
-section.hero header ul{
+    margin: 1em 0 0 1em; }
+  /* line 29, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+  section.hero header ul {
     float: right;
-    margin: 1em 1em 0 0;
-}
+    margin: 1em 1em 0 0; }
 
-section.hero header ul li{
-    list-style: none;
-    float:left;
-    margin: 2em;
-    font: 1.4em;
-    
-    padding: .2em;
-}
+/* line 36, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+section.hero header ul li {
+  list-style: none;
+  float: left;
+  margin: 2em;
+  font: 1.4em;
+  padding: 0.2em; }
 
-section.hero header ul li:last-child{
-    border:1px solid white;
-    border-radius: 4px;
-}
+/* line 45, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+section.hero header ul li:last-child {
+  border: 1px solid white;
+  border-radius: 4px; }
 
-section.hero h1{
-    clear:both;
-    font-size: 4em;
-    text-align: center;
-    padding-top: 2em;
-    font-family: sans-serif;
-}
+/* line 50, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+section.hero h1 {
+  clear: both;
+  font-size: 4em;
+  text-align: center;
+  padding-top: 2em;
+  font-family: sans-serif; }
 
-section.hero h2{
-    font-size: 2em;
-    text-align: center;
-}
+/* line 58, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+section.hero h2 {
+  font-size: 2em;
+  text-align: center; }
 
-section.hero form{
-    text-align: center;
-    padding-bottom: 2em;
-}
-
-section.hero form input{
+/* line 63, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+section.hero form {
+  text-align: center;
+  padding-bottom: 2em; }
+  /* line 66, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+  section.hero form input {
     width: 20em;
-    heith:2em;
-    background: rgba(255, 255, 255, .6)
-}
-
-section.hero form button{
+    heith: 2em;
+    background: rgba(255, 255, 255, 0.6); }
+  /* line 71, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+  section.hero form button {
     background-color: lightgreen;
-    color:white;
-    
-    heigh:2em;
-    padding: .5em;
-}
+    color: white;
+    heigh: 2em;
+    padding: 0.5em; }
+
+/* line 80, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+section.numbers {
+  max-width: 100em;
+  margin: 0 auto;
+  position: relative;
+  top: -2em; }
+  /* line 85, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+  section.numbers ul {
+    margin: 0 10%;
+    background: white;
+    border: 1px solid #ccc; }
+    /* line 90, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+    section.numbers ul:after {
+      clear: both;
+      display: block;
+      content: ''; }
+    /* line 96, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+    section.numbers ul li {
+      list-style: none;
+      display: block;
+      float: left;
+      width: 25%;
+      position: relative;
+      text-align: center;
+      padding: 2em 0; }
+      /* line 104, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+      section.numbers ul li h3 {
+        font-size: 1.6em;
+        font-weight: bold;
+        line-height: 1.2; }
+      /* line 110, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+      section.numbers ul li:after {
+        content: '';
+        background: #ccc;
+        display: block;
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        top: 0; }
+      /* line 120, /Users/twer/workspace/bueaty/scss/mystyle.scss */
+      section.numbers ul li:last-child after {
+        display: none; }
+
+/*# sourceMappingURL=mystyle.css.map */
